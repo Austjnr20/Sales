@@ -6,9 +6,9 @@ body {
   display: flex;
   justify-content: center; /* horizontal alignment */
   align-items: center;     /* vertical alignment */
-  height: 100vh;           /* full viewport height */
+  height: 280vh;           /* full viewport height */
   margin: 0;
-  width: 100%;
+  width: 110%;
   background-color: #cccccc;
 }
 
@@ -78,7 +78,7 @@ h1{
 
 .img2{
   border: none;
-  border-radius: 10%;
+  border-radius: 20px 0px 20px 0px;
   padding: 0px;
   width: 290px;
   height: 290px; 
@@ -102,4 +102,64 @@ paragraph{
     height: 100px;
     margin: 0;
     padding: 0;
+}
+h2{
+    text-align: center;
+}
+.pic1{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 0px 20px;
+}
+.pic2{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 0px 20px;   
+}
+.pic3{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 0px 20px;    
+}
+#pi1 {
+    width: 200px;
+    border-radius: 0px 20px;
+}
+#pi2{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 20px;
+}
+#pi3{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 20px;
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.pic .pic1 .pic2 .pic3{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 30px;   
+}
+#but{
+    position: center;
+    padding-left: 280px;
+    padding-top: 35px;
+}
+#final{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+h3{
+    font-size: 60px;
+}
+.anchor{
+    padding-left: 500px;
 }
