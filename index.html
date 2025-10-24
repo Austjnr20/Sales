@@ -1,102 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <title>Sale Products</title>
 </head>
 <body>
     <div class="body">
-        <!--Page one-->
-        <div id="header">
-            <header>
-                <em>Westmire Wired</em>
-            </header>
-        </div>
-        <!--Intro for the page-->
-        <div class="container">
+        <!-- Header -->
+        <header id="header">
+            <em>Westmire Wired</em>
+        </header>
+
+        <!-- Intro Section -->
+        <section class="container">
             <div id="title">
-                <h1>
-                    The Westmire <strong>A56 Headset</strong>
-                </h1>
+                <h1>The Westmire <strong>A56 Headset</strong></h1>
             </div>
             <div id="image">
-                <img class="img1" src="hbt.jpeg" rel="Picture of Headphone"/>
+                <img class="img1" src="hbt.jpeg" alt="Picture of Headphone" />
             </div>
-            </div>
-        <!--Button-->
+        </section>
+
+        <!-- Buttons -->
         <div id="button">
-            <input type="submit" value="Buy Now">
-            <input type="submit" value="Shop AI">
+            <a href="#" class="btn">Buy Now</a>
+            <a href="#" class="btn">Shop AI</a>
         </div>
-        <!--border-->
+
         <div class="border"></div>
-        <!--Page Two-->
-        <!--Information Section-->
-        <div class="info">
+
+        <!-- Info Section -->
+        <section class="info">
             <div id="paragraph">
-                <p class="write1">
-                    <h2>All-New Technology</h2>
-                </p>
+                <h2>All-New Technology</h2>
                 <p class="write2">
-                    News write-ups offer a great way to let clients know about new products and services events, awards and more. News write-ups offer a great way  to let clients know about new products and services, events awards and more.  
+                    News write-ups offer a great way to let clients know about new products and services, events, awards, and more. News write-ups offer a great way to let clients know about new products and services, events, awards, and more.
                 </p>
             </div>
             <div id="img2">
-                <img class="img2" src="pairing.jpeg" rel="Picture of Bluetooth Syncing">
+                <img class="img2" src="pairing.jpeg" alt="Picture of Bluetooth Syncing" />
             </div>
-        </div>
+        </section>
+
         <div class="border"></div>
-        <!--Page 3-->
-        <div class="pg3">
+
+        <!-- Categories -->
+        <section class="pg3">
             <h2 class="husky">Shop by Category</h2>
-        </div>
-        <div class="pic">
-            <div class="pic1">
-                <img id="pi1" src="phoneacc.jpeg" rel="Phone Accessories"/>
-                <p><strong>PHONE & ACCESSORIES</strong></p>
-                <p>Cheap cell phone accessories wholesale at Tvcmall—buy mobile accessories in bulk with no MOQ. Dropshipping service available from trusted China phone accessories suppliers. 1 M+ products online.</p>
+        </section>
+
+        <section class="pic">
+            <div class="pic1 card">
+                <img id="pi1" src="phoneacc.jpeg" alt="Phone Accessories" />
+                <h3>PHONE & ACCESSORIES</h3>
+                <p>Cheap cell phone accessories wholesale at Tvcmall—buy mobile accessories in bulk with no MOQ. Dropshipping service available from trusted suppliers.</p>
             </div>
-            <div class="pic2">
-                <img id="pi2" src="comp.jpeg" rel="Computer Equipment"/>
-                <p><strong>COMPUTER EQUIPMENT</strong></p>
-                <p>Computer equipment includes all the physical parts of a computer system, such as the central processing unit (CPU), random-access memory (RAM), motherboard, and storage drives, as well as external peripherals like monitors, keyboards, and mice</p>
+            <div class="pic2 card">
+                <img id="pi2" src="comp.jpeg" alt="Computer Equipment" />
+                <h3>COMPUTER EQUIPMENT</h3>
+                <p>Computer equipment includes all the physical parts of a computer system, such as CPU, RAM, motherboard, storage drives, and peripherals.</p>
             </div>
-            <div class="pic3">
-                <img id="pi3" src="misc.jpeg" rel="Miscellaneous"/>
-                <p><strong>MISCELLANEOUS ITEMS</strong></p>
-                <p>Miscellaneous items are a collection of various, unrelated objects that don't fit neatly into a single, specific category. These can include anything from spare buttons and old keys in a junk drawer to office supplies or small tools.</p>
+            <div class="pic3 card">
+                <img id="pi3" src="misc.jpeg" alt="Miscellaneous Items" />
+                <h3>MISCELLANEOUS ITEMS</h3>
+                <p>Miscellaneous items are a collection of unrelated objects that don't fit neatly into one category — from office supplies to small tools.</p>
             </div>
-        </div>
-        <!--Button-->
+        </section>
+
+        <!-- Shop All Button -->
         <div id="but">
-            <input class="nut" type="submit" value="Shop All">
+            <a href="#" class="btn nut">Shop All</a>
         </div>
+
         <div class="border"></div>
-        <!--Final Page-->
-        <div id="final">
-            <div id="contact">
-                <h3>Contact Us</h3>
-            </div>
+
+        <!-- Footer -->
+        <footer id="final">
             <div class="contacts">
-                <h4>MAIN OFFICE</h4>
-                <li>123 Anywhere St.</li>
-                <li>Any City, State</li>
-                <li>Any County</li>
-                <li>(123) 456 7890</li>
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>123 Anywhere St.</li>
+                    <li>Any City, State</li>
+                    <li>Any County</li>
+                    <li>(123) 456 7890</li>
+                </ul>
             </div>
+
             <div class="socials">
-                <h4>SOCIAL MEDIA</h4>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                </div>
             </div>
-        </div>
+        </footer>
+
         <div class="anchor">
-            <a href="austinelubanga.gmail.com">hello@greatsoundsite.com</a>
+            <a href="mailto:hello@greatsoundsite.com">hello@greatsoundsite.com</a>
         </div>
     </div>
-
 </body>
 </html>
